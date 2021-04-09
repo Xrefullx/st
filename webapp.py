@@ -19,7 +19,7 @@ MAIL_SERVER = 'smtp.gmail.com'
 MAIL_PORT = 465
 MAIL_USE_TLS = False
 MAIL_USE_SSL = True
-MAIL_USERNAME = 'ryantest216@gmail.com'
+MAIL_USERNAME = 'ryantest216@gmail.com' -1
 MAIL_PASSWORD = '99Google99'
 app = Flask(__name__)  # Setup flask app
 app.config.from_object(__name__)  # Setup app config
